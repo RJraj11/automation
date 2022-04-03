@@ -10,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 	
 	private WebDriver driver;
+	
+	//changes
 
 
 	@FindBy (xpath="//a[text()='Login']")
