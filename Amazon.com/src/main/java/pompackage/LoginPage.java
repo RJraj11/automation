@@ -10,14 +10,12 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 	
 	private WebDriver driver;
-	
-	//changes
+
 
 
 	@FindBy (xpath="//a[text()='Login']")
 	private WebElement loginicon;
 	
-	//akshay
 	
 	
 	@FindBy (xpath="(//input[@type=\"text\"])[3]")
