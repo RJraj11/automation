@@ -17,6 +17,8 @@ public class LoginPage {
 	@FindBy (xpath="//a[text()='Login']")
 	private WebElement loginicon;
 	
+	//akshay
+	
 	
 	@FindBy (xpath="(//input[@type=\"text\"])[3]")
 	private WebElement username ;
